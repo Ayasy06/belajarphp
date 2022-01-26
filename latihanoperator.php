@@ -41,5 +41,5 @@ $b = 20;
 $c = $a > $b;
 
 //tampilkan
-echo "$a > $b";
+echo "Hasil perbandingan dari $a dan $b adalah $c";
 ?>
