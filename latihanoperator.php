@@ -36,10 +36,8 @@ echo "<br/>"
 //membandingkan angka 19 dan 20
 $a = 19;
 $b = 20;
-
-//membandingkan angka 19 dan 20
-$c = $a > $b;
-
 //tampilkan
-echo "Hasil perbandingan dari $a dan $b adalah $c";
+$c = $a < $b;
+echo "Hasil perbandingan dari $a dan $b adalah ";
+echo "$a < $b: $c";
 ?>
